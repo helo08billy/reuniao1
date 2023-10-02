@@ -1,0 +1,153 @@
+header {
+
+
+
+
+
+  background-color: #04b0ff;
+
+
+
+
+
+  color: #fff;
+
+
+
+
+
+  padding: 10px 0;
+
+
+
+
+
+  position: fixed;
+
+
+
+
+
+  width: 100%;
+
+
+
+
+
+  top: 0;
+
+  z-index: 100;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+
+
+
+.nav{
+
+  max-width: 800px;
+
+  margin-left: 800px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+
+
+
+
+.logo {
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+  border-radius: 7px;
+
+  margin-left: 70px;
+
+}
+
+
+
+
+
+.logo-img {
+
+  width: 100px;
+
+  height: auto;
+
+  border-radius: 7px;
+
+}
+
+
+
+
+
+.links {
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+
+}
+
+
+
+
+
+.links li {
+
+  display: inline;
+
+  margin-right: 100px;
+
+}
+
+
+
+
+
+.links li a {
+
+  color: rgb(255, 255, 255);
+
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+.conteudo {
+    padding: 20px; /* Espaçamento interno do conteúdo */
+    margin-top: 80px; /* Margem superior para evitar sobreposição com a barra no topo */
+    margin-bottom: 80px; /* Margem inferior para evitar sobreposição com o rodapé */
+}
+
+/* Estilo para o rodapé fixo no final da página */
+.rodape {
+    background-color: #000000; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    position: fixed; /* Tornar o rodapé fixo no final da página */
+    bottom: 0; /* Posicionar no final da página */
+    left: 0; /* Alinhar à esquerda */
+    right: 0; /* Alinhar à direita */
+    text-align: center; /* Alinhar o texto ao centro no rodapé */
+}
